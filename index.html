@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Fontawesome Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css"
+    />
+    <title>Book Page</title>
+  </head>
+  <body class="min-h-screen dark:bg-black bg:text-white">
+    <!-- Navbar -->
+    <nav class="max-w-6xl relative mx-auto p-3">
+      <!-- Flex Container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="ml-3">
+          <h1 class="text-white text-2xl font-bold md:text-3xl">BOOKS📚</h1>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="hidden font-medium space-x-6 md:flex text-white">
+          <a href="#" class="hover:text-dimBlack">Home</a>
+          <a href="#" class="hover:text-dimBlack">About</a>
+          <a href="#" class="hover:text-dimBlack">Pricing</a>
+          <a href="#" class="hover:text-dimBlack">Facts</a>
+          <a href="#" class="hover:text-dimBlack">Sponsors</a>
+          <a href="#" class="hover:text-dimBlack">Downloads</a>
+        </div>
+
+        <!-- Hamburger Menu -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none ml-auto mr-2 mt-4"
+        >
+          <span class="hamburger-top text-white"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col hidden items-center self-end py-8 mt-10 space-y-6 font-medium bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="#" class="hover:text-slate-700 text-xl">Home</a>
+            <a href="#" class="hover:text-slate-700 text-xl">About</a>
+            <a href="#" class="hover:text-slate-700 text-xl">Pricing</a>
+            <a href="#" class="hover:text-slate-700 text-xl">Sponsors</a>
+            <a href="#" class="hover:text-slate-700 text-xl">Downloads</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div
+        class="max-w-6xl flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 text-white"
+      >
+        <!-- Left Item -->
+        <div class="flex flex-col space-y-14 md:w-1/2">
+          <span class="md:mt-16 mt-4">
+            <h1
+              class="max-w-5xl text-4xl font-bold text-black text-center md:text-5xl md:text-left dark:text-white"
+            >
+              <span
+                class="text-xl text-center font-bold md:text-2xl md:text-left"
+              >
+                AUTHOR: DAILY TUITION</span
+              >
+              <br />
+              EXCITING ADVENTURES
+
+              <p
+                class="text-slate-600 text-lg font-normal text-opacity-60 my-4"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquid, necessitatibus nesciunt? Quos, odio voluptatem numquam,
+                ab illo facere quod et voluptas
+              </p>
+            </h1>
+          </span>
+
+          <div class="flex justify-center md:justify-start">
+            <a
+              href="#"
+              class="p-3 px-6 pt-2 text-white bg-bgColor rounded-full baseline hover:opacity-80 ease-out"
+              >Buy now for $5.99</a
+            >
+          </div>
+        </div>
+
+        <!-- Image -->
+        <div class="w-1/2">
+          <img
+            src="image/mikolaj-DCzpr09cTXY-unsplash.jpg"
+            alt="Image of a 
+          book"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="client" class="mt-20">
+      <h1
+        class="text-center text-3xl md:text-4xl text-bgColor my-3 underline space-x-1 font-semibold"
+      >
+        Our Clients
+      </h1>
+      <div
+        class="max-w-6xl text-white items-center mx-auto text-center grid gap-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-6"
+      >
+        <div class="w-1/2 mx-auto">
+          <img
+            src="image/clients/client-1.png"
+            class="grayscale cursor-pointer hover:grayscale-0 ease-in-out"
+            alt=""
+          />
+        </div>
+
+        <div class="w-1/2 mx-auto">
+          <img
+            src="image/clients/cura.png"
+            class="grayscale cursor-pointer hover:grayscale-0 ease-in-out"
+            alt=""
+          />
+        </div>
+
+        <div class="w-1/2 mx-auto">
+          <img
+            src="image/clients/client-3.png"
+            class="grayscale cursor-pointer hover:grayscale-0 ease-in-out"
+            alt=""
+          />
+        </div>
+
+        <div class="w-1/2 mx-auto">
+          <img
+            src="image/clients/client-4.png"
+            class="grayscale cursor-pointer hover:grayscale-0 ease-in-out"
+            alt=""
+          />
+        </div>
+
+        <div class="w-1/2 mx-auto">
+          <img
+            src="image/clients/humming bird.png"
+            class="grayscale cursor-pointer hover:grayscale-0 ease-in-out"
+            alt=""
+          />
+        </div>
+
+        <div class="w-1/2 mx-auto">
+          <img
+            src="image/clients/infinite.png"
+            class="grayscale cursor-pointer hover:grayscale-0 ease-in-out"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="max-w-6xl mt-20 flex flex-col md:flex-row mx-auto relative justify-center items-center"
+      >
+        <!-- Item1 -->
+        <div class="max-w-6xl w-1/2 mt-10">
+          <img src="image/mrdavid.jpg" alt="Image of Mr David" />
+        </div>
+        <!-- Item 2 -->
+        <div
+          class="absolute flex flex-col h-6 md:h-14 py-8 md:mt-10 space-y-6 w-1/2 shadow-md right-6 md:left-30"
+        >
+          <h4 class="text-black bg-slate-100 text-sm p-5 md:text-2xl">
+            "I'm absolutely floored by the level of care and attention of me
+            being among one of the Shareholders of the
+            <span class="text-bgColor"> RayTech Inst. </span> in Nigeria; and
+            with this i can garantee that i will be a return customer."
+            <p class="text-sm hidden md:block">
+              Senior Director of Operation at Mashable
+            </p>
+          </h4>
+        </div>
+      </div>
+    </section>
+
+    <section id="discover" class="mt-20">
+      <h1 class="text-bgColor text-2xl md:text-4xl text-center font-bold">
+        Discover more
+      </h1>
+
+      <div
+        class="max-w-6xl flex flex-col md:flex-row mt-9 mx-auto items-center"
+      >
+        <!-- Item 1 -->
+        <div class="w-1/2 md:w-1/4 h-auto mx-auto">
+          <img
+            src="image/start-digital-HVB9zyszgZQ-unsplash.jpg"
+            class="rounded-2xl"
+            alt=""
+          />
+          <h5
+            class="text-white text-xl my-2 font-medium text-center md:text-left"
+          >
+            READ THE BLOG
+          </h5>
+          <p class="text-white mb-1 font-bold text-center md:text-left">
+            Have a meaningful impact
+          </p>
+          <p class="text-slate-600 text-center md:text-left">
+            We provide Great Opportunities to ALL
+          </p>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="w-1/2 md:w-1/4 h-auto mx-auto mt-10">
+          <img
+            src="image/daria-nepriakhina-xY55bL5mZAM-unsplash.jpg"
+            class="rounded-2xl"
+            alt=""
+          />
+          <h5
+            class="text-white text-xl my-2 font-medium text-center md:text-left"
+          >
+            READ THE BLOG
+          </h5>
+          <p class="text-white mb-1 font-bold text-center md:text-left">
+            Documentation
+          </p>
+          <p class="text-slate-600 text-center md:text-left">
+            Knowledge is Power...Come and Explore for more!..
+          </p>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="w-1/2 md:w-1/4 h-auto mx-auto mt-10">
+          <img
+            src="image/morgan-harper-nichols-OMXPrCAhxrE-unsplash.jpg"
+            class="rounded-2xl"
+            alt=""
+          />
+          <h5
+            class="text-white text-xl my-2 font-medium text-center md:text-left"
+          >
+            Always Current
+          </h5>
+          <p class="text-white mb-1 font-bold text-center md:text-left">
+            Learn more about the World
+          </p>
+          <p class="text-slate-600 text-center md:text-left">
+            We provide Great Opportunities to ALL
+          </p>
+        </div>
+      </div>
+
+      <div class="flex justify-center md:justify-start mt-2">
+        <a
+          href="#"
+          class="p-3 px-6 pt-2 text-white mx-auto border border-solid border-slate-200 rounded-full baseline hover:opacity-80 ease-out mt-6"
+          >Want to read more? <span class="text-bgColor">Go here</span></a
+        >
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="mt-10 max-w-6xl p-5 mx-auto" id="download">
+      <h1
+        class="mx-auto text-3xl md:text-4xl text-center font-medium text-bgColor"
+      >
+        Download Our App for all Platform
+      </h1>
+      <p class="text-slate-400 text-center py-3 text-xl mx-auto">
+        Our Book App is an easier way to communicate with our team & discover
+        the powerful and flexible theme of our app
+      </p>
+      <div
+        class="max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-center text-center"
+      >
+        <!-- App Store -->
+        <div class="flex flex-row bg-white p-2 rounded-full mb-3">
+          <div class="mx-2">
+            <i
+              class="fa fa-desktop mt-2 fa-3x text-black"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="text-black">
+            <h4 class="text-2xl font-medium">Desktop</h4>
+            <p>On Website</p>
+          </div>
+        </div>
+
+        <!-- Play Store -->
+
+        <div class="flex flex-row bg-white p-2 rounded-full mx-3 mb-3">
+          <div class="mx-2">
+            <i
+              class="fa fa-mobile mt-2 fa-3x text-black"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="text-black font-medium">
+            <h4 class="text-2xl">On Mobile</h4>
+            <p>On Website</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Purchase Order -->
+    <section class="mx-auto max-w-6xl mt-9" id="purchase">
+      <h1 class="text-3xl md:text-4xl text-center text-bgColor font-medium">
+        Purchase Whatever You Want
+      </h1>
+      <p class="text-slate-600 text-center mx-auto my-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae
+        eum maxime iusto deserunt repellendus mollitia saepe distinctio eaque
+        necessitatibus exercitationem nam iure, nesciunt impedit corrupti qui
+        corporis.
+      </p>
+
+      <div
+        class="max-w-6xl flex flex-col md:flex-row justify-center items-center mx-auto"
+      >
+        <!-- Item 1 -->
+        <div class="mx-auto mt-6 w-1/2 md:w-1/4 bg-lightBlue p-3 text-center">
+          <h5 class="text-2xl border-b-black border-solid">PDF</h5>
+
+          <hr class="text-black bg-black" />
+
+          <p class="my-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+            perferendis iure, quasi recusandae possimus consectetur mollitia ex
+            consequuntur corporis quod aliquid..
+          </p>
+
+          <h4 class="text-3xl text-white font-medium text-center">$77.99</h4>
+
+          <button
+            class="p-2 px-6 pt-2 text-white mx-auto border border-solid border-slate-400 rounded-full baseline hover:opacity-80 ease-out mt-6 text-center"
+          >
+            Purchase Now
+          </button>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="mx-2 w-1/2 md:w-1/4 mt-6 bg-lightBlue p-3 text-center">
+          <h5 class="text-2xl border-b-black border-solid">E-book</h5>
+
+          <hr class="text-black bg-black" />
+
+          <p class="my-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+            tenetur corporis quod aliquid architecto unde consequatur,
+          </p>
+
+          <h4 class="text-3xl text-white font-medium text-center">$99.99</h4>
+
+          <button
+            class="p-2 px-6 pt-2 text-white mx-auto border border-solid border-slate-400 rounded-full baseline hover:opacity-80 ease-out mt-6 text-center"
+          >
+            Purchase Now
+          </button>
+        </div>
+
+        <!-- item 3 -->
+        <div class="w-1/2 md:w-1/4 mt-6 mx-auto bg-lightBlue p-3 text-center">
+          <h5 class="text-2xl border-b-black border-solid">Print Copy</h5>
+
+          <hr class="text-black bg-black" />
+
+          <p class="my-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+            perferendis iure, quasi recusandae possimus consectetur mollitia ex
+            consequuntur corporis quod aliquid architecto consequatur.
+          </p>
+
+          <h4 class="text-3xl text-white font-medium text-center">$58.99</h4>
+
+          <button
+            class="p-2 px-6 pt-2 text-white mx-auto border border-solid border-slate-400 rounded-full baseline hover:opacity-80 ease-out mt-6 text-center"
+          >
+            Purchase Now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonials" class="max-w-6xl mx-auto p-6 my-12 scroll-mt-20">
+      <h2 class="text-3xl font-bold text-center md:text-4xl mb-6 text-bgColor">
+        Testimonials
+      </h2>
+      <!-- First testimonial -->
+      <figure class="my-12">
+        <blockquote
+          class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
+        >
+          <p
+            class="text-xl sm:text-2xl mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:left-0 before:text-9xl before:opacity-25 before:translate-y-2 before:top-0 before:text-white before:transform before:translate-x-2 after:content-['\201D'] after:font-serif after:absolute after:right-0 after:text-9xl after:opacity-25 after:-translate-y-2 after:bottom--20 after:text-white after:transform after:-translate-x-2"
+          >
+            Acme has always been there for me. Their Explorer rocket arrived in
+            a wooden crate as expected. Life-long customer! A++ shopping
+            experience
+          </p>
+        </blockquote>
+        <figcaption
+          class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
+        >
+          &#8212; Wile E. Coyote, Genius
+        </figcaption>
+      </figure>
+
+      <!-- Second Testimonial -->
+      <figure class="my-12">
+        <blockquote
+          class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
+        >
+          <p
+            class="text-xl sm:text-2xl mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:left-0 before:text-9xl before:opacity-25 before:translate-y-2 before:top-0 before:text-white before:transform before:translate-x-2 after:content-['\201D'] after:font-serif after:absolute after:right-0 after:text-9xl after:opacity-25 after:-translate-y-2 after:bottom--20 after:text-white after:transform after:-translate-x-2"
+          >
+            The Acme Adventurer Rocket has thwarted my Illudium Q-36 Explosive
+            Space Modulator on severat occassions.
+            <span class="italic">This makes me very, very angry!</span
+            >Nevertheless, k-9 aand I have awarded Acme the Martian contract for
+            space exploration rockets based on Acme's quality and sturdy designs
+          </p>
+        </blockquote>
+        <figcaption
+          class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
+        >
+          &#8212;Marvin The Martian &amp; k-9
+        </figcaption>
+      </figure>
+
+      <!-- Third Testimonial -->
+      <figure class="my-12">
+        <blockquote
+          class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
+        >
+          <p
+            class="text-xl sm:text-2xl mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:left-0 before:text-9xl before:opacity-25 before:translate-y-2 before:top-0 before:text-white before:transform before:translate-x-2 after:content-['\201D'] after:font-serif after:absolute after:right-0 after:text-9xl after:opacity-25 after:-translate-y-2 after:bottom--20 after:text-white after:transform after:-translate-x-2"
+          >
+            I knew am not only wanted &#8212;
+            <span class="italic">; I'm needed</span> &#8212; Acme's Infinity
+            Rockets for my mission in space. Acme delivered in one day! Nothing
+            says <q class="italic">Take me to your leader </q> like Acme's
+            Infinity Rocket!💯
+          </p>
+        </blockquote>
+        <figcaption
+          class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
+        >
+          &#8212; Buzz Lightyear
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="max-w-6xl flex flex-col md:flex-row mx-auto">
+        <!-- Item 1 -->
+
+        <div
+          class="flex-col ml-3 md:flex-row text-start max-w-6xl md:mx-auto md:w-1/3"
+        >
+          <h1 class="text-white font-medium text-3xl md:text-4xl">About us</h1>
+          <p class="text-slate-600 text-start md:text-start my-2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In unde
+            suscipit vitae quae, commodi praesentium aut earum ipsa, provident
+            consequatur voluptatum fuga tempore doloribus minus doloremque eum.
+            Explicabo, quia veniam.
+          </p>
+          <p class="text-slate-600 my-2">
+            Copyright &copy;2022. All Rights reserved | This Website is made by
+            <span class="text-bgColor">rayTech</span>
+          </p>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="flex-col md:flex-row md:w-1/3 md:mx-auto px-3">
+          <h1 class="text-3xl text-white md:text-4xl">Newsletter</h1>
+
+          <p class="text-xl text-start md:my-1 text-slate-600">Stay Updated</p>
+
+          <input
+            type="email"
+            required
+            class="p-3 px-20 border-solid rounded-full border-slate-200 focus:bg-transparent outline-slate-600 text-white focus:text-white text-start"
+            placeholder="Your email"
+          />
+
+          <button
+            type="submit"
+            class="text-white text-xl p-2 border-white border-solid"
+          >
+            Submit
+          </button>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="md:w-1/3 md:mx-auto ml-3">
+          <h1 class="text-3xl md:text-4xl text-white mt-2">Follow us</h1>
+
+          <i class="fab fa-facebook fa-2x mx-2 my-2 text-white"></i>
+          <i class="fab fa-twitter fa-2x mx-2 text-white"></i>
+          <i class="fab fa-dribbble fa-2x mx-2 text-white"></i>
+          <i class="fab fa-instagram fa-2x mx-2 text-white"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Js file -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
